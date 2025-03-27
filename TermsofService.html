@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"KlVUAzskh0hIIIcW",ck:"KlVUAzskh0hIIIcW"})</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniDigitalM - Terms of Service</title>
+	<meta name="description" content="OmniDigitalM delivers end-to-end digital marketing for multinational brands: Data-driven SEO, ROI-focused ad campaigns, vetted influencer partnerships, and enterprise-grade web development. Scale your global presence with measurable results" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #111111;
+            color: #f5f5f5;
+        }
+        
+        .page-container {
+            width: 92%;
+            max-width: calc(100% - 40px);
+            margin: 0 auto;
+        }
+        
+        @media (min-width: 768px) {
+            .page-container {
+                max-width: calc(100% - 120px);
+            }
+        }
+        
+        @media (min-width: 1280px) {
+            .page-container {
+                max-width: calc(100% - 500px);
+            }
+        }
+        
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+        }
+        
+        .black-gold-gradient-bg {
+            background: linear-gradient(135deg, #111111 0%, #222222 85%, #333333 100%);
+        }
+        
+        .hero-gradient-bg {
+            background: linear-gradient(135deg, #1a1a1a 0%, #111111 40%, #222222 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-gradient-bg::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at center, rgba(247, 209, 54, 0.1) 0%, rgba(247, 209, 54, 0) 70%);
+            z-index: 1;
+        }
+        
+        .hero-gradient-bg::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(247, 209, 54, 0.05) 0%, rgba(0, 0, 0, 0) 70%);
+            z-index: 1;
+        }
+        
+        .gold-accent-bg {
+            background: linear-gradient(135deg, #111111 0%, #222222 95%);
+            border-left: 4px solid #F7D136;
+        }
+        
+        .gold-gradient-text {
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .gold-gradient-button {
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .gold-gradient-button:hover {
+            background: linear-gradient(90deg, #bb9900 0%, #e6b800 50%, #F7D136 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(247, 209, 54, 0.3);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .contact-icon {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #F7D136 0%, #e6b800 100%);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        @media (min-width: 768px) {
+            .contact-icon {
+                right: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                bottom: auto;
+            }
+            
+            .contact-icon:hover {
+                transform: translateY(-50%) scale(1.1);
+            }
+        }
+        
+        .navbar {
+            background: rgba(17, 17, 17, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fadeUp {
+            animation: fadeUp 0.5s ease forwards;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50%;
+            height: 3px;
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+        }
+        
+        /* Custom card styling */
+        .dark-card {
+            background-color: #1a1a1a;
+            border: 1px solid rgba(247, 209, 54, 0.2);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        
+        .gold-accent {
+            border-left: 3px solid #F7D136;
+        }
+        
+        /* Mobile menu */
+        .mobile-menu-button {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .mobile-menu-button span {
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: #F7D136;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mobile-menu.active {
+            display: flex;
+        }
+        
+        .mobile-menu a {
+            font-size: 24px;
+            margin: 15px 0;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        
+        .mobile-menu a:hover {
+            color: #F7D136;
+        }
+        
+        .close-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Terms of Service specific styles */
+        .terms-section {
+            margin-bottom: 2rem;
+        }
+        
+        .terms-section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #F7D136;
+        }
+        
+        .terms-section p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        
+        .terms-section ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+            list-style-type: disc;
+        }
+        
+        .terms-section li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contact Icon -->
+    <div class="contact-icon" onclick="siteweb()">
+        <i class="fas fa-headset"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed w-full z-50 shadow-md">
+        <div class="page-container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold gold-gradient-text">OmniDigitalM</div>
+                </div>
+                <div class="hidden md:flex space-x-10">
+                     <a href="index.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Home</a>
+                    <a href="seo.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">SEO Optimization</a>
+                    <a href="ads.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Paid Advertising</a>
+                    <a href="kol.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">KOL Marketing</a>
+                    <a href="web.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Website Development</a>
+					<a href="price.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Price</a>
+					<a href="about.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">About US</a>
+                </div>
+                
+                <div class="md:hidden">
+                    <div class="mobile-menu-button" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="close-menu" onclick="toggleMobileMenu()">
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="#" onclick="toggleMobileMenu()">Home</a>
+        <a href="#" onclick="toggleMobileMenu()">Services</a>
+        <a href="#" onclick="toggleMobileMenu()">Pricing</a>
+        <a href="#" onclick="toggleMobileMenu()">About Us</a>
+        <a href="#" onclick="toggleMobileMenu()">Contact</a>
+        <button onclick="siteweb()" class="gold-gradient-button text-black px-6 py-2 rounded-full font-medium mt-6">Get Started</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient-bg">
+        <div class="page-container mx-auto px-4 hero-content text-white py-32">
+            <div class="flex flex-col items-center text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Terms of Service</h1>
+                <p class="text-lg text-gray-300 mb-6 max-w-3xl mx-auto">Please read these terms and conditions carefully before using our services.</p>
+                <p class="text-gray-400">Last Updated: August 1, 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms of Service Content -->
+    <section class="py-20 md:py-24 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="dark-card p-8 md:p-12 rounded-lg">
+                <!-- Introduction / Agreement to Terms -->
+                <div class="terms-section">
+                    <h2>1. Agreement to Terms</h2>
+                    <p>These Terms of Service (the "Terms") constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and OmniDigitalM ("we," "us" or "our"), concerning your access to and use of our website and services.</p>
+                    
+                    <p>By accessing or using our services, you agree to be bound by these Terms. If you disagree with any part of the Terms, then you may not access our services.</p>
+                    
+                    <p>We may amend these Terms at any time. It is your responsibility to review these Terms periodically for changes. Your continued use of our services following the posting of revised Terms means that you accept and agree to the changes.</p>
+                </div>
+                
+                <!-- User Accounts -->
+                <div class="terms-section">
+                    <h2>2. User Accounts</h2>
+                    <p>When you create an account with us, you must provide information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our services.</p>
+                    
+                    <p>You are responsible for safeguarding the password that you use to access our services and for any activities or actions under your password. You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.</p>
+                    
+                    <p>You may not use as a username the name of another person or entity or that is not lawfully available for use, a name or trademark that is subject to any rights of another person or entity without appropriate authorization, or a name that is offensive, vulgar, or obscene.</p>
+                </div>
+                
+                <!-- Intellectual Property -->
+                <div class="terms-section">
+                    <h2>3. Intellectual Property Rights</h2>
+                    <p>Our services and their entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by OmniDigitalM, its licensors, or other providers of such material and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</p>
+                    
+                    <p>These Terms permit you to use our services for your personal, non-commercial use only. You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our services, except as follows:</p>
+                    
+                    <ul class="text-gray-300">
+                        <li>Your computer may temporarily store copies of such materials in RAM incidental to your accessing and viewing those materials.</li>
+                        <li>You may store files that are automatically cached by your Web browser for display enhancement purposes.</li>
+                        <li>You may print or download one copy of a reasonable number of pages of the website for your own personal, non-commercial use and not for further reproduction, publication, or distribution.</li>
+                        <li>If we provide desktop, mobile, or other applications for download, you may download a single copy to your computer or mobile device solely for your own personal, non-commercial use, provided you agree to be bound by our end user license agreement for such applications.</li>
+                    </ul>
+                    
+                    <p>You must not:</p>
+                    <ul class="text-gray-300">
+                        <li>Modify copies of any materials from our services.</li>
+                        <li>Use any illustrations, photographs, video or audio sequences, or any graphics separately from the accompanying text.</li>
+                        <li>Delete or alter any copyright, trademark, or other proprietary rights notices from copies of materials from our services.</li>
+                        <li>Access or use for any commercial purposes any part of our services or any services or materials available through our services.</li>
+                    </ul>
+                </div>
+                
+                <!-- Prohibited Uses -->
+                <div class="terms-section">
+                    <h2>4. Prohibited Uses</h2>
+                    <p>You may use our services only for lawful purposes and in accordance with these Terms. You agree not to use our services:</p>
+                    
+                    <ul class="text-gray-300">
+                        <li>In any way that violates any applicable local, national, or international law or regulation.</li>
+                        <li>For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way.</li>
+                        <li>To transmit, or procure the sending of, any advertising or promotional material without our prior written consent, including any "junk mail," "chain letter," "spam," or any other similar solicitation.</li>
+                        <li>To impersonate or attempt to impersonate OmniDigitalM, an OmniDigitalM employee, another user, or any other person or entity.</li>
+                        <li>To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of our services, or which, as determined by us, may harm OmniDigitalM or users of our services or expose them to liability.</li>
+                    </ul>
+                    
+                    <p>Additionally, you agree not to:</p>
+                    
+                    <ul class="text-gray-300">
+                        <li>Use our services in any manner that could disable, overburden, damage, or impair the site or interfere with any other party's use of our services.</li>
+                        <li>Use any robot, spider, or other automatic device, process, or means to access our services for any purpose, including monitoring or copying any of the material on our services.</li>
+                        <li>Use any manual process to monitor or copy any of the material on our services or for any other unauthorized purpose without our prior written consent.</li>
+                        <li>Use any device, software, or routine that interferes with the proper working of our services.</li>
+                        <li>Introduce any viruses, trojan horses, worms, logic bombs, or other material which is malicious or technologically harmful.</li>
+                        <li>Attempt to gain unauthorized access to, interfere with, damage, or disrupt any parts of our services, the server on which our services are stored, or any server, computer, or database connected to our services.</li>
+                        <li>Attack our services via a denial-of-service attack or a distributed denial-of-service attack.</li>
+                        <li>Otherwise attempt to interfere with the proper working of our services.</li>
+                    </ul>
+                </div>
+                
+                <!-- Payment Terms -->
+                <div class="terms-section">
+                    <h2>5. Payment Terms</h2>
+                    <p>We offer various paid services and packages. By selecting a paid service, you agree to pay us the applicable fees and taxes. If you fail to pay, we may suspend or terminate your access to our services.</p>
+                    
+                    <p>Payment must be made using the methods we specify, and payment terms are as per the package or service you select. All fees are non-refundable unless expressly stated otherwise or required by applicable law.</p>
+                    
+                    <p>We reserve the right to change our prices at any time. If we change pricing for a service you're already using, we will notify you at least 30 days before the change takes effect.</p>
+                    
+                    <p>If you believe there's an error in the billing, please contact us within 60 days of the charge, and we will review your concern.</p>
+                </div>
+                
+                <!-- Termination -->
+                <div class="terms-section">
+                    <h2>6. Termination</h2>
+                    <p>We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+                    
+                    <p>Upon termination, your right to use our services will immediately cease. If you wish to terminate your account, you may simply discontinue using our services or contact us to request account deletion.</p>
+                    
+                    <p>All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.</p>
+                </div>
+                
+                <!-- Disclaimer of Warranties -->
+                <div class="terms-section">
+                    <h2>7. Disclaimer of Warranties</h2>
+                    <p>Our services are provided on an "AS IS" and "AS AVAILABLE" basis. OmniDigitalM and its suppliers and licensors hereby disclaim all warranties of any kind, express or implied, including, without limitation, the warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+                    
+                    <p>Neither OmniDigitalM nor its suppliers and licensors makes any warranty that our services will (i) meet your requirements, (ii) be available on an uninterrupted, timely, secure, or error-free basis, or (iii) be accurate, reliable, or completely secure.</p>
+                    
+                    <p>Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability for incidental or consequential damages. Accordingly, some of the above limitations may not apply to you.</p>
+                </div>
+                
+                <!-- Limitation of Liability -->
+                <div class="terms-section">
+                    <h2>8. Limitation of Liability</h2>
+                    <p>To the maximum extent permitted by applicable law, in no event shall OmniDigitalM, or its suppliers or licensors, be liable for any direct, indirect, punitive, incidental, special, consequential damages, or any damages whatsoever including, without limitation, damages for loss of use, data, or profits, arising out of or in any way connected with the use or performance of our services, with the delay or inability to use our services, the provision of or failure to provide services, or for any information, software, products, services, and related content obtained through our services, or otherwise arising out of the use of our services, whether based on contract, tort, negligence, strict liability or otherwise, even if OmniDigitalM or any of its suppliers has been advised of the possibility of damages.</p>
+                    
+                    <p>If you are dissatisfied with any portion of our services or with these terms of service, your sole and exclusive remedy is to discontinue using our services.</p>
+                </div>
+                
+                <!-- Indemnification -->
+                <div class="terms-section">
+                    <h2>9. Indemnification</h2>
+                    <p>You agree to defend, indemnify, and hold harmless OmniDigitalM, its licensors, and service providers, and its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of our services, including, but not limited to, any use of our services' content, services, and products other than as expressly authorized in these Terms or your use of any information obtained from our services.</p>
+                </div>
+                
+                <!-- Governing Law -->
+                <div class="terms-section">
+                    <h2>10. Governing Law</h2>
+                    <p>These Terms and any separate agreements whereby we provide you services shall be governed by and construed in accordance with the laws of Hong Kong Special Administrative Region of the People's Republic of China.</p>
+                    
+                    <p>Any disputes relating to these Terms or your use of our services will be subject to the exclusive jurisdiction of the courts of Hong Kong.</p>
+                </div>
+                
+                <!-- Changes to Terms -->
+                <div class="terms-section">
+                    <h2>11. Changes to Terms</h2>
+                    <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
+                    
+                    <p>By continuing to access or use our services after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using our services.</p>
+                </div>
+                
+                <!-- Waiver and Severability -->
+                <div class="terms-section">
+                    <h2>12. Waiver and Severability</h2>
+                    <p>No waiver of by OmniDigitalM of any term or condition set forth in these Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of OmniDigitalM to assert a right or provision under these Terms shall not constitute a waiver of such right or provision.</p>
+                    
+                    <p>If any provision of these Terms is held by a court or other tribunal of competent jurisdiction to be invalid, illegal, or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of the Terms will continue in full force and effect.</p>
+                </div>
+                
+                <!-- Entire Agreement -->
+                <div class="terms-section">
+                    <h2>13. Entire Agreement</h2>
+                    <p>The Terms constitute the entire agreement between you and OmniDigitalM regarding your use of our services and supersede all prior and contemporaneous written or oral agreements between you and OmniDigitalM.</p>
+                    
+                    <p>You may be subject to additional terms and conditions that apply when you use or purchase certain other services, affiliate services, third-party content, or third-party software.</p>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="terms-section">
+                    <h2>14. Contact Us</h2>
+                    <p>If you have any questions about these Terms, please contact us at:</p>
+                    
+                    <div class="mt-4 mb-6 p-4 bg-gray-800 rounded-lg">
+                        <p class="font-medium text-white">OmniDigitalM</p>
+                        <p class="text-gray-300 mt-2">Email: qwerty2015009@gmail.com</p>
+                        <p class="text-gray-300 mt-1">542 Hang Kin Street, Sha Tin District, Hong Kong</p>
+                    </div>
+                    
+                    <p>Thank you for taking the time to read our Terms of Service. We look forward to providing you with outstanding digital marketing services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="page-container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+                <div>
+                    <div class="text-2xl font-bold gold-gradient-text mb-4">OmniDigitalM</div>
+                    <p class="text-gray-400 mb-6">Global Digital Marketing Solutions for businesses seeking effective online presence and growth.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Services</h3>
+                    <ul class="space-y-3">
+                      <li><a href="seo.html" class="text-gray-400 hover:text-yellow-400 transition-colors">SEO Optimization</a></li>
+                        <li><a href="ads.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Paid Advertising</a></li>
+                        <li><a href="kol.html" class="text-gray-400 hover:text-yellow-400 transition-colors">KOL Marketing</a></li>
+                        <li><a href="web.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Website Development</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-gray-400 hover:text-yellow-400 transition-colors">About Us</a></li>
+                        <li><a href="price.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Price</a></li> 
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Legal</h3>
+                    <ul class="space-y-3">
+                         <li><a href="Privacy.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a></li>
+                        <li><a href="TermsofService.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a></li> 
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 mb-4 md:mb-0">© 2025 StarPulse Digital Agency. All rights reserved.</div>
+                <div class="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6">
+                    <a href="Privacy.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a>
+                    <a href="TermsofService.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function siteweb() {
+            window.open('https://t.me/snvtr2', '_blank');
+        }
+        
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+        
+        // Handle dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+    </script>
+</body>
+</html>

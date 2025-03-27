@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"KlVUAzskh0hIIIcW",ck:"KlVUAzskh0hIIIcW"})</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniDigitalM - Pricing</title>
+	<meta name="description" content="OmniDigitalM delivers end-to-end digital marketing for multinational brands: Data-driven SEO, ROI-focused ad campaigns, vetted influencer partnerships, and enterprise-grade web development. Scale your global presence with measurable results" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #111111;
+            color: #f5f5f5;
+        }
+        
+        .page-container {
+            width: 92%;
+            max-width: calc(100% - 40px);
+            margin: 0 auto;
+        }
+        
+        @media (min-width: 768px) {
+            .page-container {
+                max-width: calc(100% - 120px);
+            }
+        }
+        
+        @media (min-width: 1280px) {
+            .page-container {
+                max-width: calc(100% - 500px);
+            }
+        }
+        
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+        }
+        
+        .black-gold-gradient-bg {
+            background: linear-gradient(135deg, #111111 0%, #222222 85%, #333333 100%);
+        }
+        
+        .hero-gradient-bg {
+            background: linear-gradient(135deg, #1a1a1a 0%, #111111 40%, #222222 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-gradient-bg::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at center, rgba(247, 209, 54, 0.1) 0%, rgba(247, 209, 54, 0) 70%);
+            z-index: 1;
+        }
+        
+        .hero-gradient-bg::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(247, 209, 54, 0.05) 0%, rgba(0, 0, 0, 0) 70%);
+            z-index: 1;
+        }
+        
+        .gold-accent-bg {
+            background: linear-gradient(135deg, #111111 0%, #222222 95%);
+            border-left: 4px solid #F7D136;
+        }
+        
+        .gold-gradient-text {
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .gold-gradient-button {
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .gold-gradient-button:hover {
+            background: linear-gradient(90deg, #bb9900 0%, #e6b800 50%, #F7D136 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(247, 209, 54, 0.3);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .contact-icon {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #F7D136 0%, #e6b800 100%);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        @media (min-width: 768px) {
+            .contact-icon {
+                right: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                bottom: auto;
+            }
+            
+            .contact-icon:hover {
+                transform: translateY(-50%) scale(1.1);
+            }
+        }
+        
+        .navbar {
+            background: rgba(17, 17, 17, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fadeUp {
+            animation: fadeUp 0.5s ease forwards;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50%;
+            height: 3px;
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+        }
+        
+        /* Custom card styling */
+        .dark-card {
+            background-color: #1a1a1a;
+            border: 1px solid rgba(247, 209, 54, 0.2);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        
+        .gold-accent {
+            border-left: 3px solid #F7D136;
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+        
+        .testimonial-card::before {
+            content: """;
+            position: absolute;
+            top: 10px;
+            left: 15px;
+            font-size: 120px;
+            line-height: 1;
+            font-family: serif;
+            opacity: 0.1;
+            color: #F7D136;
+        }
+        
+        /* Mobile menu */
+        .mobile-menu-button {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .mobile-menu-button span {
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: #F7D136;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mobile-menu.active {
+            display: flex;
+        }
+        
+        .mobile-menu a {
+            font-size: 24px;
+            margin: 15px 0;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        
+        .mobile-menu a:hover {
+            color: #F7D136;
+        }
+        
+        .close-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+        
+        /* Pricing table styles */
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid rgba(247, 209, 54, 0.3);
+            background-color: #1a1a1a;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        .pricing-table th, .pricing-table td {
+            padding: 16px;
+            border: 1px solid rgba(247, 209, 54, 0.2);
+            text-align: left;
+        }
+        
+        .pricing-table th {
+            background-color: rgba(247, 209, 54, 0.1);
+            font-weight: 600;
+            color: #F7D136;
+        }
+        
+        .pricing-table tr:nth-child(even) {
+            background-color: rgba(247, 209, 54, 0.05);
+        }
+        
+        .pricing-table tr:hover {
+            background-color: rgba(247, 209, 54, 0.08);
+        }
+        
+        .pricing-table .category {
+            font-weight: 600;
+            color: #F7D136;
+        }
+        
+        .pricing-table .price-row {
+            background-color: rgba(247, 209, 54, 0.15);
+            font-weight: bold;
+        }
+        
+        .pricing-table .discounted-price {
+            color: #F7D136;
+            font-size: 1.2em;
+        }
+        
+        .pricing-table .original-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        .pricing-table .note {
+            font-style: italic;
+            color: #999;
+        }
+        
+        .pricing-highlight {
+            background-color: rgba(247, 209, 54, 0.1);
+            color: #F7D136;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        .check-icon {
+            color: #10b981;
+            margin-right: 8px;
+        }
+        
+        /* Responsive table */
+        @media (max-width: 768px) {
+            .pricing-table-container {
+                overflow-x: auto;
+            }
+        }
+        
+        /* Mobile table styles */
+        @media (max-width: 640px) {
+            .mobile-pricing-card {
+                margin-bottom: 24px;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+            
+            .mobile-pricing-header {
+                background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+                color: white;
+                padding: 16px;
+                text-align: center;
+            }
+            
+            .mobile-pricing-body {
+                padding: 16px;
+            }
+            
+            .mobile-pricing-feature {
+                padding: 8px 0;
+                border-bottom: 1px solid rgba(247, 209, 54, 0.1);
+            }
+        }
+        
+        .package-inclusion-alert {
+            background-color: rgba(247, 209, 54, 0.15);
+            border-left: 4px solid #F7D136;
+            padding: 16px;
+            margin-bottom: 24px;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contact Icon -->
+    <div class="contact-icon" onclick="siteweb()">
+        <i class="fas fa-headset"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed w-full z-50 shadow-md">
+        <div class="page-container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold gold-gradient-text">OmniDigitalM</div>
+                </div>
+                <div class="hidden md:flex space-x-10">
+                    <a href="index.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Home</a>
+                    <a href="seo.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">SEO Optimization</a>
+                    <a href="ads.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Paid Advertising</a>
+                    <a href="kol.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">KOL Marketing</a>
+                    <a href="web.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Website Development</a>
+					<a href="price.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Price</a>
+					<a href="about.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">About US</a>
+                </div>
+                
+                <div class="md:hidden">
+                    <div class="mobile-menu-button" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="close-menu" onclick="toggleMobileMenu()">
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="#pricing-table" onclick="toggleMobileMenu()">Pricing Plans</a>
+        <a href="#features" onclick="toggleMobileMenu()">Features</a>
+        <a href="#testimonials" onclick="toggleMobileMenu()">Testimonials</a>
+        <a href="#contact" onclick="toggleMobileMenu()">Contact Us</a>
+        <button onclick="siteweb()" class="gold-gradient-button text-black px-6 py-2 rounded-full font-medium mt-6">Get Started</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient-bg min-h-screen flex items-center">
+        <div class="page-container mx-auto px-4 hero-content text-white py-32">
+            <div class="text-center animate-fadeUp">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Start Your User Growth Plan Now</h1>
+                <p class="text-xl md:text-2xl mb-8 gold-gradient-text font-bold">Transparent Pricing & Comprehensive Service Packages</p>
+                <p class="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">Choose the right digital marketing package that fits your business needs and budget. Our tailored solutions deliver measurable results to help your business grow.</p>
+                <a href="#pricing-table" class="gold-gradient-button text-black hover:bg-gray-200 px-8 py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">View Our Pricing Plans</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Table Section -->
+    <section id="pricing-table" class="py-24 md:py-32 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Our Pricing Plans</h2>
+                <p class="text-gray-300 mt-12 max-w-3xl mx-auto">Transparent pricing with no hidden fees. Choose the package that best suits your business needs and goals.</p>
+            </div>
+            
+            <div class="package-inclusion-alert mb-12">
+                <p class="font-bold text-yellow-400 text-xl mb-2">Important Note:</p>
+                <p class="text-white mb-2"><span class="font-semibold">Intermediate Package:</span> Includes all services from the Basic Package plus additional features.</p>
+                <p class="text-white"><span class="font-semibold">Advanced Package:</span> Includes all services from the Intermediate Package plus additional features.</p>
+            </div>
+            
+            <!-- Desktop Pricing Table -->
+            <div class="hidden md:block pricing-table-container overflow-x-auto mb-10">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th class="w-1/4">Features</th>
+                            <th class="w-1/4">Basic Package</th>
+                            <th class="w-1/4">Intermediate Package</th>
+                            <th class="w-1/4">Advanced Package</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="price-row">
+                            <td>Package Price</td>
+                            <td>
+                                <div class="original-price">$2,500/month</div>
+                                <div class="discounted-price">$1,799/month</div>
+                            </td>
+                            <td>
+                                <div class="original-price">$4,800/month</div>
+                                <div class="discounted-price">$3,599/month</div>
+                            </td>
+                            <td>
+                               <div class="original-price">$9,500/month</div>
+                                <div class="discounted-price">$7,899/month</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="category">SEO</td>
+                            <td>Optimize 30 long-tail keywords monthly</td>
+                            <td>Optimize 50 long-tail keywords monthly</td>
+                            <td>Optimize 100 long-tail keywords monthly</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Basic technical SEO audit (mobile compatibility/loading speed)</td>
+                            <td>Monthly 8 SEO blog posts (500 words/post, with basic images)</td>
+                            <td>Monthly 20 SEO blog posts (500 words/post, with basic images)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Monthly keyword ranking report (PDF format)</td>
+                            <td>Website speed optimization (CDN configuration)</td>
+                            <td>Personalized strategy targeted to your keyword database</td>
+                        </tr>
+                        <tr>
+                            <td class="category">Ad Management</td>
+                            <td>Single platform ad management (Google or Meta - choose one)</td>
+                            <td>Dual platform ad management (Google + Meta)</td>
+                            <td>Forecasting & results: Expert team representation, guaranteed minimum 30% conversion rate increase</td>
+                        </tr>
+                        <tr>
+                            <td class="category">Ad Budget</td>
+                            <td>Monthly $500 ad budget distribution recommendation</td>
+                            <td>Ad creative templates (20 templates)</td>
+                            <td>Click fraud protection system: Automatic bot detection, saves at least $1,000 monthly</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Basic ad creative templates (10 templates)</td>
+                            <td>ROAS (Return on Ad Spend) optimization method</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="category">KOL Marketing</td>
+                            <td>Target 3 KOLs every month for video advertising shooting + product placement</td>
+                            <td>Target 6 KOLs every month for video advertising shooting + product placement</td>
+                            <td>Target 12 KOLs every month for video advertising shooting + product placement</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Standardized promotion templates (English/local languages)</td>
+                            <td>UGC (user-generated content) collection tools</td>
+                            <td>Viral content strategy: Creating cooperative videos of 30s/15s/5s multi-versions, distributed network-wide</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Basic results tracking (view stats + click stats)</td>
+                            <td>Cross-platform results comparison reports (TikTok/IG/FB)</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="category">Website Development</td>
+                            <td>5-page basic website building (WordPress/Shopify templates)</td>
+                            <td>10-page customized website development</td>
+                            <td>15-page customized website development</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Basic SSL certificate installation</td>
+                            <td>Heatmap analysis tool setup (Hotjar)</td>
+                            <td>Image/video optimization for 3x faster loading time (eliminates buffering)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Contact form + basic SEO meta setup</td>
+                            <td>Multi-language functionality (supports 2+ languages)</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Monthly website security scan (malware detection)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Mobile Pricing Cards -->
+            <div class="md:hidden space-y-8">
+                <!-- Package Inclusion Notice for Mobile -->
+                <div class="dark-card p-4 mb-6 border-l-4 border-yellow-400">
+                    <p class="text-yellow-400 font-bold mb-2">Important: Package Inclusions</p>
+                    <p class="text-sm text-gray-300">• Intermediate Package includes all Basic services</p>
+                    <p class="text-sm text-gray-300">• Advanced Package includes all Intermediate services</p>
+                </div>
+                
+                <!-- Basic Package -->
+                <div class="mobile-pricing-card dark-card">
+                    <div class="mobile-pricing-header" style="background: linear-gradient(135deg, #3b82f6 0%, #1e3a8a 100%);">
+                        <h3 class="text-xl font-bold">Basic Package</h3>
+                        <div class="mt-2">
+                            <span class="text-sm line-through">$2,500/month</span>
+                            <div class="text-2xl font-bold">$1,997/month</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mobile-pricing-body">
+                        <div class="font-semibold text-yellow-400 mb-3">SEO</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Optimize 30 long-tail keywords monthly</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Basic technical SEO audit</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Monthly keyword ranking report (PDF)</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">Ad Management</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Single platform ad management</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>$5500 ad budget recommendations</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>10 ad creative templates</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">KOL Marketing</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>3 micro-KOLs monthly</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Standardized promotion templates</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Basic results tracking</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">Website Development</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>5-page basic website</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>SSL certificate installation</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Basic SEO meta setup</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Monthly security scan</span>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <button onclick="siteweb()" class="gold-gradient-button text-black px-6 py-3 rounded-full font-medium w-full">Choose Plan</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Intermediate Package -->
+                <div class="mobile-pricing-card dark-card">
+                    <div class="mobile-pricing-header" style="background: linear-gradient(135deg, #4f46e5 0%, #312e81 100%);">
+                        <div class="bg-red-500 text-white text-sm font-bold py-1 px-3 rounded-full inline-block mb-2">Most Popular</div>
+                        <h3 class="text-xl font-bold">Intermediate Package</h3>
+                        <div class="mt-2">
+                            <span class="text-sm line-through">$4,500/month</span>
+                            <div class="text-2xl font-bold">$2,997/month</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mobile-pricing-body">
+                        <div class="font-semibold text-yellow-400 mb-3">SEO</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Optimize 50 long-tail keywords monthly</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>8 SEO blog posts (500 words/post)</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Website speed optimization (CDN)</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">Ad Management</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Dual platform management (Google+Meta)</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>20 ad creative templates</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>ROAS optimization methods</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">KOL Marketing</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>8 medium micro-KOLs monthly</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>UGC collection tools</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Cross-platform results reports</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">Website Development</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>10-page customized website</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Heatmap analysis tool setup</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Multi-language functionality</span>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <button onclick="siteweb()" class="gold-gradient-button text-black px-6 py-3 rounded-full font-medium w-full">Choose Plan</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Advanced Package -->
+                <div class="mobile-pricing-card dark-card">
+                    <div class="mobile-pricing-header" style="background: linear-gradient(135deg, #7c3aed 0%, #4c1d95 100%);">
+                        <h3 class="text-xl font-bold">Advanced Package</h3>
+                        <div class="mt-2">
+                            <div class="text-2xl font-bold">Contact for Pricing</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mobile-pricing-body">
+                        <div class="font-semibold text-yellow-400 mb-3">SEO</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Optimize 100 long-tail keywords monthly</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>20 SEO blog posts (500 words/post)</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Personalized keyword strategy</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">Ad Management</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Expert team representation</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>30%+ conversion rate increase guaranteed</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Click fraud protection system</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">KOL Marketing</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>20 medium/small KOLs monthly</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Viral content strategy</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Multi-version video creation</span>
+                        </div>
+                        
+                        <div class="font-semibold text-yellow-400 mt-4 mb-3">Website Development</div>
+                        
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Complete rebuild with custom video</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>3x faster loading time</span>
+                        </div>
+                        <div class="mobile-pricing-feature">
+                            <i class="fas fa-check check-icon"></i>
+                            <span>Eliminates buffering issues</span>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <button onclick="siteweb()" class="gold-gradient-button text-black px-6 py-3 rounded-full font-medium w-full">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <p class="text-gray-400 mb-6">Not sure which plan is right for you? Contact us for a personalized recommendation.</p>
+                <button onclick="siteweb()" class="bg-transparent border-2 border-yellow-500 text-white hover:bg-yellow-500 hover:bg-opacity-10 px-8 py-3 rounded-full text-lg font-medium">Schedule Consultation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-24 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">What's Included</h2>
+                <p class="text-gray-300 mt-12 max-w-3xl mx-auto">Our comprehensive packages are designed to deliver measurable results across all aspects of your digital marketing strategy.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="text-yellow-400 text-4xl mb-4">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Search Engine Optimization</h3>
+                    <p class="text-gray-300">Comprehensive SEO strategies to improve your website's visibility in search results, including keyword optimization, technical SEO, and content creation.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="text-yellow-400 text-4xl mb-4">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Paid Advertising Management</h3>
+                    <p class="text-gray-300">Expert management of your advertising campaigns across multiple platforms, with strategic budget allocation and creative optimization.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="text-yellow-400 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">KOL & Influencer Marketing</h3>
+                    <p class="text-gray-300">Strategic partnerships with influencers to expand your reach and build credibility with your target audience through authentic content.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="text-yellow-400 text-4xl mb-4">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Website Development</h3>
+                    <p class="text-gray-300">Professional website design and development services, from basic templates to fully customized solutions with optimized performance.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="text-yellow-400 text-4xl mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Analytics & Reporting</h3>
+                    <p class="text-gray-300">Detailed performance reports with actionable insights to track your ROI and continuously improve your digital marketing strategy.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="text-yellow-400 text-4xl mb-4">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Dedicated Support</h3>
+                    <p class="text-gray-300">Ongoing support from our experienced team of digital marketing professionals to ensure your success and address any questions or concerns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-24 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Client Testimonials</h2>
+                <p class="text-gray-300 mt-8 max-w-3xl mx-auto">See what our clients say about our digital marketing services</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "The Basic Package exceeded our expectations. We saw a 45% increase in organic traffic within just 3 months, and our ad campaigns are performing better than ever."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">David Chen</div>
+                            <div class="text-sm text-gray-400">E-commerce Store Owner</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "We upgraded to the Intermediate Package and the results have been phenomenal. The KOL marketing strategy they implemented helped us reach a completely new audience."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Sophia Lin</div>
+                            <div class="text-sm text-gray-400">Fashion Brand Marketing Director</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "The Advanced Package was a game-changer for our business. Their team's expertise in SEO and paid advertising has helped us achieve a 200% ROI in just 6 months."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Michael Zhang</div>
+                            <div class="text-sm text-gray-400">CEO, Tech Startup</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "What impresses me most is their attention to detail. The website they built for us is not only beautiful but also performs exceptionally well in terms of speed and conversion rate."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Lisa Wang</div>
+                            <div class="text-sm text-gray-400">Restaurant Chain Owner</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 5 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "The click fraud protection system in the Advanced Package has saved us thousands of dollars in ad spend. Their team is extremely knowledgeable and responsive."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Robert Kim</div>
+                            <div class="text-sm text-gray-400">Digital Marketing Manager</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 6 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "We started with the Basic Package and gradually upgraded to Intermediate. The transparent pricing and clear results made it an easy decision to invest more in their services."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Jennifer Li</div>
+                            <div class="text-sm text-gray-400">Education Platform Founder</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 md:py-24 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Frequently Asked Questions</h2>
+                <p class="text-gray-300 mt-12 max-w-3xl mx-auto">Find answers to common questions about our pricing and services</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="font-semibold text-xl mb-3 text-white">What's the difference between the packages?</div>
+                    <p class="text-gray-300">Each package offers different levels of service intensity and features. The Basic Package is ideal for small businesses just starting with digital marketing, the Intermediate Package offers more comprehensive coverage across platforms, while the Advanced Package provides the highest level of customization and support for businesses with aggressive growth goals.</p>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="font-semibold text-xl mb-3 text-white">Are there any hidden fees or long-term contracts?</div>
+                    <p class="text-gray-300">No hidden fees at all. The price you see is what you pay, and all included services are clearly outlined. Our standard contracts are month-to-month, though we offer discounts for 6-month and 12-month commitments.</p>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="font-semibold text-xl mb-3 text-white">Can I upgrade or downgrade my package?</div>
+                    <p class="text-gray-300">Yes, you can upgrade your package at any time. Downgrades can be processed at the end of your current billing cycle. Our team will work with you to ensure a smooth transition between packages.</p>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="font-semibold text-xl mb-3 text-white">What is your refund policy?</div>
+                    <p class="text-gray-300">We offer a 100% satisfaction guarantee for all our packages. If you're not satisfied with our services, you can request a refund within the first 14 days of your subscription. For monthly subscriptions, we can provide a prorated refund for unused services if cancelled mid-month. Please contact our support team for more details on our refund process.</p>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="font-semibold text-xl mb-3 text-white">How soon will I see results?</div>
+                    <p class="text-gray-300">While some results can be seen immediately (especially with paid advertising), significant organic growth typically takes 3-6 months. We provide monthly reports to track progress and will adjust strategies as needed to optimize results.</p>
+                </div>
+                
+                <!-- FAQ Item 6 -->
+                <div class="dark-card p-6 rounded-lg">
+                    <div class="font-semibold text-xl mb-3 text-white">Do I need to provide my own ad budget?</div>
+                    <p class="text-gray-300">Yes, the ad budget is separate from our management fees. We will provide recommendations for optimal budget allocation based on your goals and industry, with complete transparency on how your advertising dollars are being spent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 md:py-24 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Contact Us</h2>
+                <p class="text-gray-300 mt-8 max-w-3xl mx-auto">Ready to start your growth journey? Contact us today to discuss the right package for your business</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="dark-card rounded-lg p-6 md:p-10 text-center border border-yellow-500 border-opacity-20">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8 md:mb-10">
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fab fa-telegram text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Telegram</p>
+                            <p class="text-gray-300">@snvtr2</p>
+                        </div>
+                        
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fas fa-envelope text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Email</p>
+                            <p class="text-gray-300">qwerty2015009@gmail.com</p>
+                        </div>
+                        
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fab fa-skype text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Skype</p>
+                            <p class="text-gray-300">live:.cid.9102ee3696093646</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8 md:mb-10 p-6 md:p-8 rounded-lg bg-gray-800 border-l-4 border-yellow-500">
+                        <p class="font-medium text-xl mb-2 md:mb-3 text-white">StarPulse Digital Agency</p>
+                        <p class="text-gray-300">542 Hang Kin Street, Sha Tin District, Hong Kong</p>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row justify-center gap-4 md:gap-6">
+                        <button onclick="siteweb()" class="gold-gradient-button text-black hover:bg-yellow-400 px-8 py-3 md:px-10 md:py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">Contact Us Now</button>
+                        <button onclick="siteweb()" class="bg-transparent border-2 border-yellow-500 text-white hover:bg-yellow-500 hover:bg-opacity-10 px-8 py-3 md:px-10 md:py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">Schedule a Call</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 hero-gradient-bg">
+        <div class="page-container mx-auto px-4 text-center">
+            <div class="hero-content">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">Ready to accelerate your business growth?</h2>
+                <p class="text-xl mb-8 text-gray-300 max-w-3xl mx-auto">Choose the right package for your needs and start seeing measurable results from your digital marketing investment.</p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <a href="#pricing-table" class="gold-gradient-button text-black px-8 py-4 rounded-full font-medium text-lg">View Pricing Plans</a>
+                    <a href="#contact" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-medium text-lg hover:bg-white hover:bg-opacity-10 transition-colors">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="page-container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+                <div>
+                    <div class="text-2xl font-bold gold-gradient-text mb-4">OmniDigitalM</div>
+                    <p class="text-gray-400 mb-6">Global Digital Marketing Solutions for businesses seeking effective online presence and growth.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="seo.html" class="text-gray-400 hover:text-yellow-400 transition-colors">SEO Optimization</a></li>
+                        <li><a href="ads.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Paid Advertising</a></li>
+                        <li><a href="kol.html" class="text-gray-400 hover:text-yellow-400 transition-colors">KOL Marketing</a></li>
+                        <li><a href="web.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Website Development</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Company</h3>
+                    <ul class="space-y-3">
+                          <li><a href="about.html" class="text-gray-400 hover:text-yellow-400 transition-colors">About Us</a></li>
+                        <li><a href="price.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Price</a></li> 
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Legal</h3>
+                    <ul class="space-y-3">
+                         <li><a href="Privacy.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a></li>
+                        <li><a href="TermsofService.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a></li>  
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 mb-4 md:mb-0">© 2025 StarPulse Digital Agency. All rights reserved.</div>
+                <div class="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6">
+                    <a href="Privacy.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a>
+                    <a href="TermsofService.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function siteweb() {
+            window.open('https://t.me/snvtr2', '_blank');
+        }
+        
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+        
+        // Handle dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+    </script>
+</body>
+</html>

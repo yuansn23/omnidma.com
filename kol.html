@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"KlVUAzskh0hIIIcW",ck:"KlVUAzskh0hIIIcW"})</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influencer Marketing for Enterprises - Global Brand Campaign Management</title>
+	 <meta name="description" content="Partner with vetted macro-influencers worldwide. End-to-end campaign execution: talent sourcing, viral content production, and measurable sales attribution" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #111111;
+            color: #f5f5f5;
+        }
+        
+        .page-container {
+            width: 92%;
+            max-width: calc(100% - 40px);
+            margin: 0 auto;
+        }
+        
+        @media (min-width: 768px) {
+            .page-container {
+                max-width: calc(100% - 120px);
+            }
+        }
+        
+        @media (min-width: 1280px) {
+            .page-container {
+                max-width: calc(100% - 500px);
+            }
+        }
+        
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+        }
+        
+        .black-gold-gradient-bg {
+            background: linear-gradient(135deg, #111111 0%, #222222 85%, #333333 100%);
+        }
+        
+        .hero-gradient-bg {
+            background: linear-gradient(135deg, #1a1a1a 0%, #111111 40%, #222222 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-gradient-bg::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at center, rgba(247, 209, 54, 0.1) 0%, rgba(247, 209, 54, 0) 70%);
+            z-index: 1;
+        }
+        
+        .hero-gradient-bg::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(247, 209, 54, 0.05) 0%, rgba(0, 0, 0, 0) 70%);
+            z-index: 1;
+        }
+        
+        .gold-accent-bg {
+            background: linear-gradient(135deg, #111111 0%, #222222 95%);
+            border-left: 4px solid #F7D136;
+        }
+        
+        .gold-gradient-text {
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .gold-gradient-button {
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .gold-gradient-button:hover {
+            background: linear-gradient(90deg, #bb9900 0%, #e6b800 50%, #F7D136 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(247, 209, 54, 0.3);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .contact-icon {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #F7D136 0%, #e6b800 100%);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        @media (min-width: 768px) {
+            .contact-icon {
+                right: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                bottom: auto;
+            }
+            
+            .contact-icon:hover {
+                transform: translateY(-50%) scale(1.1);
+            }
+        }
+        
+        .case-study-item {
+            transition: all 0.5s ease;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .case-study-item:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(247, 209, 54, 0.1) 0%, rgba(247, 209, 54, 0.2) 100%);
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            transition: transform 0.5s ease-out;
+        }
+        
+        .case-study-item:hover:before {
+            transform: scaleX(1);
+        }
+        
+        .case-study-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+        
+        .navbar {
+            background: rgba(17, 17, 17, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fadeUp {
+            animation: fadeUp 0.5s ease forwards;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50%;
+            height: 3px;
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+        }
+        
+        /* Custom card styling */
+        .dark-card {
+            background-color: #1a1a1a;
+            border: 1px solid rgba(247, 209, 54, 0.2);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        
+        .gold-accent {
+            border-left: 3px solid #F7D136;
+        }
+
+        .kol-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid #F7D136;
+        }
+        
+        .kol-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .kol-icon {
+            background: rgba(247, 209, 54, 0.15);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .benefit-icon {
+            min-width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(247, 209, 54, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+        
+        /* Mobile menu */
+        .mobile-menu-button {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .mobile-menu-button span {
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: #F7D136;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mobile-menu.active {
+            display: flex;
+        }
+        
+        .mobile-menu a {
+            font-size: 24px;
+            margin: 15px 0;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        
+        .mobile-menu a:hover {
+            color: #F7D136;
+        }
+        
+        .close-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+        
+        .testimonial-card::before {
+            content: """;
+            position: absolute;
+            top: 10px;
+            left: 15px;
+            font-size: 120px;
+            line-height: 1;
+            font-family: serif;
+            opacity: 0.1;
+            color: #F7D136;
+        }
+        
+        .platform-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin-right: 8px;
+            background: rgba(247, 209, 54, 0.1);
+            color: #F7D136;
+            transition: all 0.3s ease;
+        }
+        
+        .platform-icon:hover {
+            background: rgba(247, 209, 54, 0.3);
+            transform: scale(1.1);
+        }
+        
+        /* KOL Creator Gallery Styling */
+        .creator-gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+        
+        @media (max-width: 1024px) {
+            .creator-gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .creator-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        .creator-item {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            aspect-ratio: 1 / 1.2;
+            cursor: pointer;
+        }
+        
+        .creator-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .creator-item::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+            z-index: 1;
+        }
+        
+        .creator-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.5s ease;
+        }
+        
+        .creator-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .creator-info {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 12px;
+        }
+        
+        .creator-industry {
+            background: rgba(247, 209, 54, 0.8);
+            color: #000;
+            font-weight: bold;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            align-self: flex-start;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .creator-country {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            font-weight: bold;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            align-self: flex-end;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .category-tag {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            z-index: 3;
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        
+        .category-beauty {
+            background: linear-gradient(45deg, #FF5E9A, #FF2A7F);
+            color: white;
+        }
+        
+        .category-tech {
+            background: linear-gradient(45deg, #2A73FF, #0055DD);
+            color: white;
+        }
+        
+        .category-fitness {
+            background: linear-gradient(45deg, #00CC77, #00AA55);
+            color: white;
+        }
+        
+        .category-fashion {
+            background: linear-gradient(45deg, #A851FF, #7700CC);
+            color: white;
+        }
+        
+        .category-lifestyle {
+            background: linear-gradient(45deg, #FFB302, #FF9500);
+            color: white;
+        }
+        
+        .category-comedy {
+            background: linear-gradient(45deg, #FF6633, #FF3300);
+            color: white;
+        }
+        
+        .category-travel {
+            background: linear-gradient(45deg, #18CDCA, #00A9A5);
+            color: white;
+        }
+        
+        .category-gaming {
+            background: linear-gradient(45deg, #7E57C2, #5E35B1);
+            color: white;
+        }
+        
+        .category-business {
+            background: linear-gradient(45deg, #546E7A, #37474F);
+            color: white;
+        }
+        
+        .category-music {
+            background: linear-gradient(45deg, #E53935, #C62828);
+            color: white;
+        }
+        
+        .category-food {
+            background: linear-gradient(45deg, #FF7043, #E64A19);
+            color: white;
+        }
+        
+        .category-parenting {
+            background: linear-gradient(45deg, #8D6E63, #5D4037);
+            color: white;
+        }
+        
+        .category-diy {
+            background: linear-gradient(45deg, #9CCC65, #7CB342);
+            color: white;
+        }
+        
+        .category-outdoor {
+            background: linear-gradient(45deg, #4CAF50, #388E3C);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contact Icon -->
+    <div class="contact-icon" onclick="siteweb()">
+        <i class="fas fa-headset"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed w-full z-50 shadow-md">
+        <div class="page-container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold gold-gradient-text">OmniDigitalM</div>
+                </div>
+                <div class="hidden md:flex space-x-10">
+                    <a href="index.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Home</a>
+                    <a href="seo.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">SEO Optimization</a>
+                    <a href="ads.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Paid Advertising</a>
+                    <a href="kol.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">KOL Marketing</a>
+                    <a href="web.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Website Development</a>
+					<a href="price.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Price</a>
+					<a href="about.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">About US</a>
+                </div>
+                 
+                <div class="md:hidden">
+                    <div class="mobile-menu-button" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="close-menu" onclick="toggleMobileMenu()">
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="#global-network" onclick="toggleMobileMenu()">Global Network</a>
+        <a href="#what-is-kol" onclick="toggleMobileMenu()">What is KOL</a>
+        <a href="#why-video" onclick="toggleMobileMenu()">Why Video</a>
+        <a href="#case-studies" onclick="toggleMobileMenu()">Case Studies</a>
+        <a href="#testimonials" onclick="toggleMobileMenu()">Testimonials</a>
+        <button onclick="siteweb()" class="gold-gradient-button text-black px-6 py-2 rounded-full font-medium mt-6">Get Started</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient-bg min-h-screen flex items-center">
+        <div class="page-container mx-auto px-4 hero-content text-white py-32">
+            <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+                <div class="w-full lg:w-1/2 text-left animate-fadeUp" style="animation-delay: 0.1s;">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">Influencer Marketing Excellence</h1>
+                    <p class="text-xl md:text-2xl mb-8 gold-gradient-text font-bold">150+ Vetted Creators | Data-Driven Video Ads | ROI-Focused Campaigns</p>
+                    <p class="text-lg text-gray-300 mb-8">Turn creators into your brand's most powerful advocates with our premium KOL marketing solutions.</p>
+                    <button onclick="siteweb()" class="gold-gradient-button text-black hover:bg-gray-200 px-8 py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">Launch Your Campaign</button>
+                </div>
+                <div class="w-full lg:w-1/2 animate-fadeUp" style="animation-delay: 0.3s;">
+                    <img src="https://www.goodmja.online/shuziyingxiao/kol/kol1.jpg" alt="KOL Marketing" class="w-full rounded-xl shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Network Section -->
+    <section id="global-network" class="py-24 md:py-32 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-5xl font-bold section-title gold-gradient-text">Global KOL Network</h2>
+                <p class="text-gray-300 mt-12 max-w-3xl mx-auto text-xl leading-relaxed">Connect with the right audience anywhere in the world</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+                <div class="w-full lg:w-1/2 space-y-6 md:space-y-8">
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-white leading-relaxed">150+ Vetted Global Creators</h3>
+                    <p class="text-gray-300 text-base md:text-lg leading-relaxed">
+                        Access our extensive network of key opinion leaders across major countries and regions including the United States, United Kingdom, Canada, Australia, France, Italy, Brazil, Spain, Japan, Singapore, and more. We can accommodate advertising production for any product.
+                    </p>
+                    <p class="text-gray-300 text-base md:text-lg leading-relaxed">
+                        Based on your promotional objectives, we'll match you with suitable influencers across popular social media channels including Facebook, Instagram, YouTube, TikTok, and more.
+                    </p>
+                    
+                    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="flex items-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                            <div class="platform-icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <span class="text-white">YouTube</span>
+                        </div>
+                        <div class="flex items-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                            <div class="platform-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <span class="text-white">Instagram</span>
+                        </div>
+                        <div class="flex items-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                            <div class="platform-icon">
+                                <i class="fab fa-tiktok"></i>
+                            </div>
+                            <span class="text-white">TikTok</span>
+                        </div>
+                        <div class="flex items-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                            <div class="platform-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <span class="text-white">Facebook</span>
+                        </div>
+                    </div>
+                    
+                    <div class="pt-4 md:pt-6">
+                        <button onclick="siteweb()" class="gold-gradient-button text-black px-8 py-3 md:px-10 md:py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all">Find Your KOL Match</button>
+                    </div>
+                </div>
+                
+                <div class="w-full lg:w-1/2">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="dark-card rounded-lg overflow-hidden">
+                            <div class="p-4 bg-gray-800 border-b border-yellow-500 border-opacity-30">
+                                <h4 class="font-bold text-lg text-white">Americas</h4>
+                            </div>
+                            <div class="p-5">
+                                <ul class="space-y-2 text-gray-300">
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> United States</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> Canada</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> Brazil</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> Mexico</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="dark-card rounded-lg overflow-hidden">
+                            <div class="p-4 bg-gray-800 border-b border-yellow-500 border-opacity-30">
+                                <h4 class="font-bold text-lg text-white">Europe</h4>
+                            </div>
+                            <div class="p-5">
+                                <ul class="space-y-2 text-gray-300">
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> United Kingdom</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> France</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> Italy</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> Spain</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="dark-card rounded-lg overflow-hidden">
+                            <div class="p-4 bg-gray-800 border-b border-yellow-500 border-opacity-30">
+                                <h4 class="font-bold text-lg text-white">Asia Pacific</h4>
+                            </div>
+                            <div class="p-5">
+                                <ul class="space-y-2 text-gray-300">
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> Japan</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> Singapore</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> Australia</li>
+                                    <li class="flex items-center"><i class="fas fa-check text-yellow-400 mr-2"></i> South Korea</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="dark-card rounded-lg overflow-hidden">
+                            <div class="p-4 bg-gray-800 border-b border-yellow-500 border-opacity-30">
+                                <h4 class="font-bold text-lg text-white">Audience Sizes</h4>
+                            </div>
+                            <div class="p-5">
+                                <ul class="space-y-2 text-gray-300">
+                                    <li class="flex items-center"><i class="fas fa-star text-yellow-400 mr-2"></i> Micro (10K-50K)</li>
+                                    <li class="flex items-center"><i class="fas fa-star text-yellow-400 mr-2"></i> Mid-tier (50K-500K)</li>
+                                    <li class="flex items-center"><i class="fas fa-star text-yellow-400 mr-2"></i> Macro (500K-1M)</li>
+                                    <li class="flex items-center"><i class="fas fa-star text-yellow-400 mr-2"></i> Mega (1M+)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Creator Gallery Section -->
+            <div class="mt-24">
+                <div class="text-center mb-12">
+                    <h3 class="text-2xl md:text-3xl font-bold text-white">Our Global Creator Network</h3>
+                    <p class="text-gray-300 mt-4 max-w-2xl mx-auto">Explore some of our vetted KOLs from around the world ready to promote your brand</p>
+                </div>
+                
+                <div class="creator-gallery">
+                    <!-- Row 1 -->
+                    <!-- Creator 1 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/1.png" alt="KOL Creator 1" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-spa"></i> Beauty</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> United States</div>
+                        </div>
+                        <div class="category-tag category-beauty">Beauty & Skincare</div>
+                    </div>
+                    
+                    <!-- Creator 2 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/2.png" alt="KOL Creator 2" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-laptop"></i> Tech</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> United Kingdom</div>
+                        </div>
+                        <div class="category-tag category-tech">Tech Reviews</div>
+                    </div>
+                    
+                    <!-- Creator 3 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/3.png" alt="KOL Creator 3" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-dumbbell"></i> Fitness</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Australia</div>
+                        </div>
+                        <div class="category-tag category-fitness">Fitness & Health</div>
+                    </div>
+                    
+                    <!-- Creator 4 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/4.png" alt="KOL Creator 4" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-tshirt"></i> Fashion</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> France</div>
+                        </div>
+                        <div class="category-tag category-fashion">Fashion</div>
+                    </div>
+                    
+                    <!-- Creator 5 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/5.png" alt="KOL Creator 5" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-home"></i> Lifestyle</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Canada</div>
+                        </div>
+                        <div class="category-tag category-lifestyle">Home & Lifestyle</div>
+                    </div>
+                    
+                    <!-- Row 2 -->
+                    <!-- Creator 6 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/6.png" alt="KOL Creator 6" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-laugh"></i> Comedy</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Brazil</div>
+                        </div>
+                        <div class="category-tag category-comedy">Comedy & Entertainment</div>
+                    </div>
+                    
+                    <!-- Creator 7 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/7.png" alt="KOL Creator 7" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-plane"></i> Travel</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Spain</div>
+                        </div>
+                        <div class="category-tag category-travel">Travel & Adventure</div>
+                    </div>
+                    
+                    <!-- Creator 8 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/8.png" alt="KOL Creator 8" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-gamepad"></i> Gaming</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Germany</div>
+                        </div>
+                        <div class="category-tag category-gaming">Gaming</div>
+                    </div>
+                    
+                    <!-- Creator 9 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/9.png" alt="KOL Creator 9" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-chart-line"></i> Business</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Singapore</div>
+                        </div>
+                        <div class="category-tag category-business">Business & Finance</div>
+                    </div>
+                    
+                    <!-- Creator 10 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/10.png" alt="KOL Creator 10" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-music"></i> Music</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> South Korea</div>
+                        </div>
+                        <div class="category-tag category-music">Music & Dance</div>
+                    </div>
+                    
+                    <!-- Row 3 -->
+                    <!-- Creator 11 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/11.png" alt="KOL Creator 11" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-utensils"></i> Food</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Italy</div>
+                        </div>
+                        <div class="category-tag category-food">Food & Cooking</div>
+                    </div>
+                    
+                    <!-- Creator 12 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/12.png" alt="KOL Creator 12" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-baby"></i> Parenting</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> United States</div>
+                        </div>
+                        <div class="category-tag category-parenting">Parenting</div>
+                    </div>
+                    
+                    <!-- Creator 13 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/13.png" alt="KOL Creator 13" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-spa"></i> Beauty</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> United Kingdom</div>
+                        </div>
+                        <div class="category-tag category-beauty">Makeup & Beauty</div>
+                    </div>
+                    
+                    <!-- Creator 14 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/14.png" alt="KOL Creator 14" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-laugh"></i> Comedy</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Canada</div>
+                        </div>
+                        <div class="category-tag category-comedy">Entertainment</div>
+                    </div>
+                    
+                    <!-- Creator 15 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/15.png" alt="KOL Creator 15" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-cut"></i> DIY</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Australia</div>
+                        </div>
+                        <div class="category-tag category-diy">DIY & Crafts</div>
+                    </div>
+                    
+                    <!-- Row 4 -->
+                    <!-- Creator 16 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/16.png" alt="KOL Creator 16" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-dumbbell"></i> Fitness</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Germany</div>
+                        </div>
+                        <div class="category-tag category-fitness">Fitness & Wellness</div>
+                    </div>
+                    
+                    <!-- Creator 17 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/17.png" alt="KOL Creator 17" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-plane"></i> Travel</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Japan</div>
+                        </div>
+                        <div class="category-tag category-travel">Travel & Exploration</div>
+                    </div>
+                    
+                    <!-- Creator 18 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/18.png" alt="KOL Creator 18" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-laptop"></i> Tech</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> South Korea</div>
+                        </div>
+                        <div class="category-tag category-tech">Tech & Gadgets</div>
+                    </div>
+                    
+                    <!-- Creator 19 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/19.png" alt="KOL Creator 19" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-tshirt"></i> Fashion</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> France</div>
+                        </div>
+                        <div class="category-tag category-fashion">Fashion & Style</div>
+                    </div>
+                    
+                    <!-- Creator 20 -->
+                    <div class="creator-item">
+                        <img src="https://www.goodmja.online/shuziyingxiao/kol/20.png" alt="KOL Creator 20" class="w-full h-full object-cover">
+                        <div class="creator-info">
+                            <div class="creator-industry"><i class="fas fa-home"></i> Lifestyle</div>
+                            <div class="creator-country"><i class="fas fa-map-marker-alt"></i> Brazil</div>
+                        </div>
+                        <div class="category-tag category-outdoor">Outdoor & Adventure</div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-12">
+                    <button onclick="siteweb()" class="gold-gradient-button text-black px-8 py-3 md:py-4 rounded-full text-lg font-medium">Access Our Full KOL Network</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is KOL Section -->
+    <section id="what-is-kol" class="py-20 md:py-24 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Who Are Key Opinion Leaders?</h2>
+                <p class="text-gray-300 mt-8 max-w-3xl mx-auto font-semibold italic">"They're not just influencers, they're trusted authorities in your industry"</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-10 items-start">
+                <div class="w-full lg:w-1/2">
+                    <div class="dark-card p-8 rounded-lg mb-8">
+                        <h3 class="text-2xl font-bold text-white mb-4">KOL (Key Opinion Leader) =</h3>
+                        <p class="text-xl text-gray-300 mb-4">Domain authority with professional qualifications + audience loyalty</p>
+                        
+                        <div class="mt-8 space-y-6">
+                            <div class="flex items-start">
+                                <div class="kol-icon mt-1">
+                                    <i class="fas fa-dumbbell text-yellow-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold text-white mb-1">Case Study 1:</h4>
+                                    <p class="text-gray-300">Certified nutritionist fitness blogger, product unboxing videos with 23.7% conversion rate</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="kol-icon mt-1">
+                                    <i class="fas fa-laptop-code text-yellow-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold text-white mb-1">Case Study 2:</h4>
+                                    <p class="text-gray-300">Former Amazon engineer's tech reviews, reduced B2B product acquisition costs by 41%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-6 bg-gray-800 bg-opacity-50 rounded-lg border border-yellow-500 border-opacity-20">
+                        <div class="flex items-center">
+                            <div class="text-3xl text-yellow-400 mr-4"><i class="fas fa-chart-line"></i></div>
+                            <div>
+                                <h4 class="font-bold text-white text-lg">Data-Supported Results</h4>
+                                <p class="text-gray-300">Nielsen 2023 report shows KOL video ads increase purchase intent by 5X</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-full lg:w-1/2">
+                    <div class="dark-card p-8 rounded-lg h-full">
+                        <h3 class="text-2xl font-bold text-white mb-6">The KOL Difference</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="min-w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center text-yellow-400 font-bold mr-4">1</div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg mb-2">Deep Expertise</h4>
+                                    <p class="text-gray-300">Unlike general influencers, KOLs have verified credentials and expertise that lend true authority to their recommendations</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="min-w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center text-yellow-400 font-bold mr-4">2</div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg mb-2">Higher Trust Factor</h4>
+                                    <p class="text-gray-300">Their audience trusts their judgment because they've established credibility through consistent, valuable content</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="min-w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center text-yellow-400 font-bold mr-4">3</div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg mb-2">Higher Conversion Potential</h4>
+                                    <p class="text-gray-300">KOLs drive stronger conversion because their recommendations carry the weight of expert endorsement</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="min-w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center text-yellow-400 font-bold mr-4">4</div>
+                                <div>
+                                    <h4 class="font-bold text-white text-lg mb-2">Long-Term Value</h4>
+                                    <p class="text-gray-300">Partnerships with KOLs build lasting brand credibility, not just temporary visibility</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Video Section -->
+    <section id="why-video" class="py-20 md:py-24 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="mb-16 md:mb-20">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+                    <div class="text-left">
+                        <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Why Choose Video Advertising?</h2>
+                        <p class="text-gray-300 mt-8 max-w-2xl font-bold">Dynamic Demonstration > Text Persuasion</p>
+                    </div>
+                    <img src="https://www.goodmja.online/shuziyingxiao/kol/kol2.jpg" alt="Video Marketing" class="w-full max-w-md rounded-lg shadow-xl">
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Video Benefit 1 -->
+                <div class="kol-card dark-card p-6 md:p-8 rounded-lg">
+                    <div class="mb-6 w-14 h-14 rounded-full bg-gray-800 flex items-center justify-center">
+                        <i class="fas fa-stopwatch text-yellow-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">7-Second Golden Rule</h3>
+                    <p class="text-gray-300 text-base leading-relaxed">
+                        Script structure design that increases completion rate by 90% in the first 7 seconds, capturing attention when it matters most.
+                    </p>
+                    <div class="mt-4 p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                        <p class="text-yellow-400 font-semibold">90% higher retention rates compared to standard ads</p>
+                    </div>
+                </div>
+                
+                <!-- Video Benefit 2 -->
+                <div class="kol-card dark-card p-6 md:p-8 rounded-lg">
+                    <div class="mb-6 w-14 h-14 rounded-full bg-gray-800 flex items-center justify-center">
+                        <i class="fas fa-user-check text-yellow-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Trust Chain Acceleration</h3>
+                    <p class="text-gray-300 text-base leading-relaxed">
+                        Real person on screen + dramatized pain point scenarios shortens decision cycles by 50%.
+                    </p>
+                    <div class="mt-4 p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                        <p class="text-yellow-400 font-semibold">Human connection that static images can't replicate</p>
+                    </div>
+                </div>
+                
+                <!-- Video Benefit 3 -->
+                <div class="kol-card dark-card p-6 md:p-8 rounded-lg">
+                    <div class="mb-6 w-14 h-14 rounded-full bg-gray-800 flex items-center justify-center">
+                        <i class="fas fa-share-alt text-yellow-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Cross-Platform Amplification</h3>
+                    <p class="text-gray-300 text-base leading-relaxed">
+                        One video can be broken down into 30+ short video assets, maximizing content ROI across platforms.
+                    </p>
+                    <div class="mt-4 p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                        <p class="text-yellow-400 font-semibold">Multi-format content from a single production</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 md:mt-14">
+                <button onclick="siteweb()" class="gold-gradient-button text-black px-8 py-3 md:px-10 md:py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all">Request Video Strategy</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="py-20 md:py-24 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Success Case Studies</h2>
+                <p class="text-gray-300 mt-8 max-w-3xl mx-auto">Real results across diverse industries</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Row 1 -->
+                <!-- Beauty & Personal Care -->
+                <div class="case-study-item dark-card rounded-lg overflow-hidden">
+                    <div class="h-3 bg-gradient-to-r from-pink-500 to-pink-300"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-spa text-pink-500"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">Beauty & Personal Care</h3>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <p class="text-gray-300">
+                                <span class="font-bold text-white">Clean Beauty Brand:</span> 10 dermatologist KOLs created "28-Day Clinical Tracking" content, resulting in a 320% increase in website conversion rate
+                            </p>
+                            
+                            <div class="flex items-center justify-between p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                                <span class="text-gray-300">Conversion Increase</span>
+                                <span class="text-yellow-400 font-bold">+320%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tech Hardware -->
+                <div class="case-study-item dark-card rounded-lg overflow-hidden">
+                    <div class="h-3 bg-gradient-to-r from-blue-500 to-blue-300"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-headphones text-blue-500"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">Tech Hardware</h3>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <p class="text-gray-300">
+                                <span class="font-bold text-white">Wireless Earbuds Brand:</span> Tech bloggers' "72-Hour Extreme Environment Test" videos propelled Amazon ranking into TOP 10 within just 7 days
+                            </p>
+                            
+                            <div class="flex items-center justify-between p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                                <span class="text-gray-300">Ranking Improvement</span>
+                                <span class="text-yellow-400 font-bold">TOP 10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- B2B SaaS -->
+                <div class="case-study-item dark-card rounded-lg overflow-hidden">
+                    <div class="h-3 bg-gradient-to-r from-purple-500 to-purple-300"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-chart-network text-purple-500"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">B2B SaaS</h3>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <p class="text-gray-300">
+                                <span class="font-bold text-white">CRM System:</span> Collaborated with LinkedIn industry KOLs to create "Productivity Revolution" series, increasing SQL (Sales Qualified Leads) by 190%
+                            </p>
+                            
+                            <div class="flex items-center justify-between p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                                <span class="text-gray-300">SQL Growth</span>
+                                <span class="text-yellow-400 font-bold">+190%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 2 -->
+                <!-- Fashion Retail -->
+                <div class="case-study-item dark-card rounded-lg overflow-hidden">
+                    <div class="h-3 bg-gradient-to-r from-indigo-500 to-indigo-300"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-tshirt text-indigo-500"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">Fashion Retail</h3>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <p class="text-gray-300">
+                                <span class="font-bold text-white">Sustainable Clothing Brand:</span> Micro-influencer network created "Eco-Fashion Challenge" series, generating 215% increase in social media engagement and 43% boost in direct sales
+                            </p>
+                            
+                            <div class="flex items-center justify-between p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                                <span class="text-gray-300">Engagement Growth</span>
+                                <span class="text-yellow-400 font-bold">+215%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Health & Wellness -->
+                <div class="case-study-item dark-card rounded-lg overflow-hidden">
+                    <div class="h-3 bg-gradient-to-r from-green-500 to-green-300"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-heartbeat text-green-500"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">Health & Wellness</h3>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <p class="text-gray-300">
+                                <span class="font-bold text-white">Fitness App Developer:</span> Collaborated with certified fitness trainers on TikTok for "30-Day Challenge" campaign, resulting in 480% app download increase and 65% retention rate
+                            </p>
+                            
+                            <div class="flex items-center justify-between p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                                <span class="text-gray-300">Download Increase</span>
+                                <span class="text-yellow-400 font-bold">+480%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- E-commerce Marketplace -->
+                <div class="case-study-item dark-card rounded-lg overflow-hidden">
+                    <div class="h-3 bg-gradient-to-r from-red-500 to-red-300"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-shopping-cart text-red-500"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">E-commerce Marketplace</h3>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <p class="text-gray-300">
+                                <span class="font-bold text-white">Global Marketplace Platform:</span> Country-specific KOLs created "Hidden Gems" video series showcasing local sellers, boosting cross-border purchases by 137% and new seller sign-ups by 84%
+                            </p>
+                            
+                            <div class="flex items-center justify-between p-3 bg-gray-800 bg-opacity-50 rounded-lg">
+                                <span class="text-gray-300">Cross-Border Sales</span>
+                                <span class="text-yellow-400 font-bold">+137%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-24 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Client Testimonials</h2>
+                <p class="text-gray-300 mt-8 max-w-3xl mx-auto">What our clients say about our KOL marketing solutions</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Row 1 -->
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "The nano-KOL home transformation series videos caused our Instagram traffic to explode by 700%, and our CPC dropped to just $0.23!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">DTC Home Brand CMO</div>
+                            <div class="text-sm text-gray-400">Direct-to-Consumer Furniture Company</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "The educational videos from German nutritionists helped us achieve a flawless launch in the European market with zero negative reviews and a remarkable 42% repurchase rate!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Cross-Border Health Brand Founder</div>
+                            <div class="text-sm text-gray-400">Wellness Supplements Company</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "Working with tech KOLs transformed our product launch. Their detailed review videos drove 3x more conversions than our previous campaigns, with an impressive 28% of viewers using promo codes."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Tech Startup CEO</div>
+                            <div class="text-sm text-gray-400">Consumer Electronics Company</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 2 -->
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "Our fashion brand collaborated with 7 micro-influencers instead of one celebrity, and the results were incredible. We saw engagement rates 5x higher than industry average and a 215% increase in website traffic."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Fashion Brand Marketing Director</div>
+                            <div class="text-sm text-gray-400">Sustainable Clothing Company</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 5 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "Our B2B software was struggling to connect with decision-makers until we partnered with industry KOLs. Their in-depth tutorial videos and case studies drove a 78% increase in demo requests from qualified leads."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">SaaS Company VP of Marketing</div>
+                            <div class="text-sm text-gray-400">Enterprise Software Provider</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 6 -->
+                <div class="testimonial-card dark-card p-8 rounded-lg relative">
+                    <div class="mb-6 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-8 relative z-10">
+                        "Their strategy of pairing our food delivery app with local chef KOLs was genius. The behind-the-scenes cooking videos tripled our customer acquisition rate and reduced our overall marketing spend by 35%."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-yellow-200 flex items-center justify-center mr-4 text-yellow-800">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div>
+                            <div class="font-bold text-white">Food Delivery App Founder</div>
+                            <div class="text-sm text-gray-400">On-Demand Service Platform</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 md:py-24 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Contact Us</h2>
+                <p class="text-gray-300 mt-8 max-w-3xl mx-auto">Ready to launch your KOL marketing campaign? Our experts are ready to help</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="dark-card rounded-lg p-6 md:p-10 text-center border border-yellow-500 border-opacity-20">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8 md:mb-10">
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fab fa-telegram text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Telegram</p>
+                            <p class="text-gray-300">@snvtr2</p>
+                        </div>
+                        
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fas fa-envelope text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Email</p>
+                            <p class="text-gray-300">qwerty2015009@gmail.com</p>
+                        </div>
+                        
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fab fa-skype text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Skype</p>
+                            <p class="text-gray-300">live:.cid.9102ee3696093646</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8 md:mb-10 p-6 md:p-8 rounded-lg bg-gray-800 border-l-4 border-yellow-500">
+                        <p class="font-medium text-xl mb-2 md:mb-3 text-white">StarPulse Influence Limited</p>
+                        <p class="text-gray-300">542 Hang Kin Street, Sha Tin District, Hong Kong</p>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row justify-center gap-4 md:gap-6">
+                        <button onclick="siteweb()" class="gold-gradient-button text-black hover:bg-yellow-400 px-8 py-3 md:px-10 md:py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">Contact Us Now</button>
+                        <button onclick="siteweb()" class="bg-transparent border-2 border-yellow-500 text-white hover:bg-yellow-500 hover:bg-opacity-10 px-8 py-3 md:px-10 md:py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">Request KOL Strategy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="page-container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+                <div>
+                    <div class="text-2xl font-bold gold-gradient-text mb-4">OmniDigitalM</div>
+                    <p class="text-gray-400 mb-6">Global Digital Marketing Solutions for brands seeking growth across borders.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="seo.html" class="text-gray-400 hover:text-yellow-400 transition-colors">SEO Optimization</a></li>
+                        <li><a href="ads.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Paid Advertising</a></li>
+                        <li><a href="kol.html" class="text-gray-400 hover:text-yellow-400 transition-colors">KOL Marketing</a></li>
+                        <li><a href="web.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Website Development</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-gray-400 hover:text-yellow-400 transition-colors">About Us</a></li>
+                        <li><a href="price.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Price</a></li> 
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Legal</h3>
+                    <ul class="space-y-3">
+                         <li><a href="Privacy.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a></li>
+                        <li><a href="TermsofService.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a></li> 
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 mb-4 md:mb-0">© 2025 StarPulse Influence Limited. All rights reserved.</div>
+                <div class="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6">
+                    <a href="Privacy.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a>
+                    <a href="TermsofService.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function siteweb() {
+            window.open('https://t.me/snvtr2', '_blank');
+        }
+        
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

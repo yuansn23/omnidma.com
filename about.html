@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"KlVUAzskh0hIIIcW",ck:"KlVUAzskh0hIIIcW"})</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniDigitalM - About Us</title>
+	 <meta name="description" content="OmniDigitalM delivers end-to-end digital marketing for multinational brands: Data-driven SEO, ROI-focused ad campaigns, vetted influencer partnerships, and enterprise-grade web development. Scale your global presence with measurable results" />
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #111111;
+            color: #f5f5f5;
+        }
+        
+        .page-container {
+            width: 92%;
+            max-width: calc(100% - 40px);
+            margin: 0 auto;
+        }
+        
+        @media (min-width: 768px) {
+            .page-container {
+                max-width: calc(100% - 120px);
+            }
+        }
+        
+        @media (min-width: 1280px) {
+            .page-container {
+                max-width: calc(100% - 500px);
+            }
+        }
+        
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+        }
+        
+        .black-gold-gradient-bg {
+            background: linear-gradient(135deg, #111111 0%, #222222 85%, #333333 100%);
+        }
+        
+        .hero-gradient-bg {
+            background: linear-gradient(135deg, #1a1a1a 0%, #111111 40%, #222222 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-gradient-bg::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at center, rgba(247, 209, 54, 0.1) 0%, rgba(247, 209, 54, 0) 70%);
+            z-index: 1;
+        }
+        
+        .hero-gradient-bg::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(247, 209, 54, 0.05) 0%, rgba(0, 0, 0, 0) 70%);
+            z-index: 1;
+        }
+        
+        .gold-accent-bg {
+            background: linear-gradient(135deg, #111111 0%, #222222 95%);
+            border-left: 4px solid #F7D136;
+        }
+        
+        .gold-gradient-text {
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .gold-gradient-button {
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .gold-gradient-button:hover {
+            background: linear-gradient(90deg, #bb9900 0%, #e6b800 50%, #F7D136 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(247, 209, 54, 0.3);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .contact-icon {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #F7D136 0%, #e6b800 100%);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        @media (min-width: 768px) {
+            .contact-icon {
+                right: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                bottom: auto;
+            }
+            
+            .contact-icon:hover {
+                transform: translateY(-50%) scale(1.1);
+            }
+        }
+        
+        .case-study-item {
+            transition: all 0.5s ease;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .case-study-item:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(247, 209, 54, 0.1) 0%, rgba(247, 209, 54, 0.2) 100%);
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            transition: transform 0.5s ease-out;
+        }
+        
+        .case-study-item:hover:before {
+            transform: scaleX(1);
+        }
+        
+        .case-study-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+        
+        .navbar {
+            background: rgba(17, 17, 17, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fadeUp {
+            animation: fadeUp 0.5s ease forwards;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50%;
+            height: 3px;
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+        }
+        
+        /* Custom card styling */
+        .dark-card {
+            background-color: #1a1a1a;
+            border: 1px solid rgba(247, 209, 54, 0.2);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        
+        .gold-accent {
+            border-left: 3px solid #F7D136;
+        }
+
+        .service-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid #F7D136;
+            height: 100%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .service-icon {
+            background: rgba(247, 209, 54, 0.15);
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            flex-shrink: 0;
+        }
+        
+        .benefit-icon {
+            min-width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(247, 209, 54, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+        
+        /* Mobile menu */
+        .mobile-menu-button {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .mobile-menu-button span {
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: #F7D136;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mobile-menu.active {
+            display: flex;
+        }
+        
+        .mobile-menu a {
+            font-size: 24px;
+            margin: 15px 0;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        
+        .mobile-menu a:hover {
+            color: #F7D136;
+        }
+        
+        .close-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .stats-container {
+            background: linear-gradient(135deg, #1a1a1a 0%, #222222 100%);
+            border-radius: 10px;
+            border: 1px solid rgba(247, 209, 54, 0.2);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .stats-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stat-item {
+            position: relative;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .stat-item:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 20%;
+            height: 60%;
+            width: 1px;
+            background: rgba(247, 209, 54, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .stat-item:not(:last-child)::after {
+                display: none;
+            }
+        }
+        
+        .stat-value {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #F7D136;
+            margin-bottom: 8px;
+            line-height: 1;
+        }
+        
+        .stat-label {
+            font-size: 1rem;
+            color: #e0e0e0;
+        }
+        
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background-color: rgba(247, 209, 54, 0.3);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+        }
+        
+        .timeline-container {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+        
+        .timeline-container::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: -10px;
+            background: linear-gradient(90deg, #F7D136 0%, #e6b800 50%, #bb9900 100%);
+            border-radius: 50%;
+            top: 25px;
+            z-index: 1;
+        }
+        
+        .left {
+            left: 0;
+        }
+        
+        .right {
+            left: 50%;
+        }
+        
+        .right::after {
+            left: -10px;
+        }
+        
+        .timeline-content {
+            padding: 20px 30px;
+            background-color: #1a1a1a;
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-left: 4px solid #F7D136;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .timeline::after {
+                left: 31px;
+            }
+            
+            .timeline-container {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+            
+            .timeline-container::after {
+                left: 21px;
+            }
+            
+            .left::after, .right::after {
+                left: 21px;
+            }
+            
+            .right {
+                left: 0%;
+            }
+        }
+        
+        .team-member {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+        
+        .team-member img {
+            transition: all 0.3s ease;
+        }
+        
+        .team-member:hover img {
+            transform: scale(1.05);
+        }
+        
+        .team-member-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+            padding: 20px;
+            transform: translateY(20px);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .team-member:hover .team-member-info {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        .award-badge {
+            position: relative;
+            background: linear-gradient(135deg, #1a1a1a 0%, #222222 100%);
+            border-radius: 10px;
+            padding: 20px;
+            border: 1px solid rgba(247, 209, 54, 0.2);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+        
+        .award-badge::before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: 60px;
+            height: 60px;
+            background: #F7D136;
+            transform: rotate(45deg);
+            z-index: 1;
+        }
+        
+        .award-badge:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .award-icon {
+            font-size: 2rem;
+            color: #F7D136;
+            margin-bottom: 15px;
+        }
+        
+        .about-feature {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        
+        .about-feature-icon {
+            min-width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: #F7D136;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contact Icon -->
+    <div class="contact-icon" onclick="siteweb()">
+        <i class="fas fa-headset"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed w-full z-50 shadow-md">
+        <div class="page-container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold gold-gradient-text">OmniDigitalM</div>
+                </div>
+                <div class="hidden md:flex space-x-10">
+                  
+					
+					 <a href="index.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Home</a>
+                    <a href="seo.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">SEO Optimization</a>
+                    <a href="ads.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Paid Advertising</a>
+                    <a href="kol.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">KOL Marketing</a>
+                    <a href="web.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Website Development</a>
+					<a href="price.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">Price</a>
+					<a href="about.html" class="font-medium text-gray-300 hover:text-yellow-400 transition-colors">About US</a>
+					
+					
+                </div>
+                
+                <div class="md:hidden">
+                    <div class="mobile-menu-button" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="close-menu" onclick="toggleMobileMenu()">
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="#" onclick="toggleMobileMenu()">Home</a>
+        <a href="#our-story" onclick="toggleMobileMenu()">Our Story</a>
+        <a href="#our-expertise" onclick="toggleMobileMenu()">Expertise</a>
+        <a href="#our-team" onclick="toggleMobileMenu()">Team</a>
+        <a href="#contact-us" onclick="toggleMobileMenu()">Contact</a>
+        <button onclick="siteweb()" class="gold-gradient-button text-black px-6 py-2 rounded-full font-medium mt-6">Get Started</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient-bg">
+        <div class="page-container mx-auto px-4 hero-content text-white py-32">
+            <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+                <div class="w-full lg:w-1/2 text-left animate-fadeUp" style="animation-delay: 0.1s;">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">About OmniDigitalM</h1>
+                    <p class="text-xl md:text-2xl mb-8 gold-gradient-text font-bold">Global Digital Marketing Strategy Experts | 15 Years of Multinational Brand Growth Experience</p>
+                    <p class="text-lg text-gray-300 mb-8">Looking for opportunities to expand your brand into new markets? As pioneers in digital marketing, our team has been providing data-driven growth solutions to businesses across 20+ countries since 2008.</p>
+                    <button onclick="siteweb()" class="gold-gradient-button text-black hover:bg-gray-200 px-8 py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">Work With Us</button>
+                </div>
+                <div class="w-full lg:w-1/2 animate-fadeUp" style="animation-delay: 0.3s;">
+                    <img src="https://www.goodmja.online/about/about.jpg" alt="OmniDigitalM Team" class="w-full rounded-xl shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-20 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="stats-container py-10 px-4 md:px-10">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <div class="stat-item">
+                        <div class="stat-value">15+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-value">20+</div>
+                        <div class="stat-label">Countries Served</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-value">$120M+</div>
+                        <div class="stat-label">Ad Budget Managed</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-value">300%+</div>
+                        <div class="stat-label">Average ROI Improvement</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="our-story" class="py-24 md:py-32 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Our Story</h2>
+                <p class="text-gray-300 mt-12 max-w-3xl mx-auto">From our humble beginnings to becoming a global digital marketing powerhouse</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-container left">
+                    <div class="timeline-content">
+                        <h3 class="font-bold text-xl mb-2 text-yellow-400">2008</h3>
+                        <p class="text-gray-300">Founded in Hong Kong with a vision to revolutionize digital marketing in Asia. Started with a small team of 5 passionate marketers.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content">
+                        <h3 class="font-bold text-xl mb-2 text-yellow-400">2011</h3>
+                        <p class="text-gray-300">Expanded operations to Singapore and mainland China. Secured our first multinational clients in the technology sector.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content">
+                        <h3 class="font-bold text-xl mb-2 text-yellow-400">2013</h3>
+                        <p class="text-gray-300">Pioneered data-driven marketing approaches that delivered exceptional ROI for e-commerce clients. Team grew to 25 specialists.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content">
+                        <h3 class="font-bold text-xl mb-2 text-yellow-400">2015</h3>
+                        <p class="text-gray-300">Opened offices in London and New York, establishing a global presence. Launched our proprietary marketing analytics platform.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content">
+                        <h3 class="font-bold text-xl mb-2 text-yellow-400">2018</h3>
+                        <p class="text-gray-300">Celebrated 10 years of success with over $50M in managed ad spend. Expanded services to include advanced AI-powered marketing solutions.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content">
+                        <h3 class="font-bold text-xl mb-2 text-yellow-400">2021</h3>
+                        <p class="text-gray-300">Navigated the pandemic by helping clients pivot to digital-first strategies. Achieved 200% growth despite global challenges.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content">
+                        <h3 class="font-bold text-xl mb-2 text-yellow-400">Today</h3>
+                        <p class="text-gray-300">Operating across 20+ countries with a diverse team of 100+ digital marketing experts. Managing over $120M in annual digital ad spend with proven results.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Expertise Section -->
+    <section id="our-expertise" class="py-24 md:py-32 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Our Expertise</h2>
+                <p class="text-gray-300 mt-12 max-w-3xl mx-auto">We specialize in these key industries, delivering tailored digital marketing solutions</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Expertise 1 -->
+                <div class="service-card dark-card p-6 md:p-8 rounded-lg">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart text-yellow-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">E-Commerce</h3>
+                    <p class="text-gray-300 text-base leading-relaxed">
+                        Helping online retailers increase traffic, conversion rates, and customer lifetime value through targeted digital strategies.
+                    </p>
+                    <div class="mt-4">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Conversion optimization</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Shopping ads management</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Marketplace optimization</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Expertise 2 -->
+                <div class="service-card dark-card p-6 md:p-8 rounded-lg">
+                    <div class="service-icon">
+                        <i class="fas fa-microchip text-yellow-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Technology</h3>
+                    <p class="text-gray-300 text-base leading-relaxed">
+                        Creating demand generation strategies for SaaS, hardware, and tech service companies to drive qualified leads.
+                    </p>
+                    <div class="mt-4">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">B2B lead generation</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Content marketing</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Marketing automation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Expertise 3 -->
+                <div class="service-card dark-card p-6 md:p-8 rounded-lg">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils text-yellow-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">FMCG</h3>
+                    <p class="text-gray-300 text-base leading-relaxed">
+                        Building brand awareness and driving product adoption for consumer goods companies through multichannel campaigns.
+                    </p>
+                    <div class="mt-4">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Influencer marketing</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Social media campaigns</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Video advertising</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Expertise 4 -->
+                <div class="service-card dark-card p-6 md:p-8 rounded-lg">
+                    <div class="service-icon">
+                        <i class="fas fa-landmark text-yellow-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Finance</h3>
+                    <p class="text-gray-300 text-base leading-relaxed">
+                        Helping financial institutions acquire customers while navigating complex regulatory environments.
+                    </p>
+                    <div class="mt-4">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Compliant advertising</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">User acquisition</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="text-gray-300">Trust building content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Awards & Recognition Section -->
+    <section class="py-24 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Awards & Recognition</h2>
+                <p class="text-gray-300 mt-12 max-w-3xl mx-auto">Our commitment to excellence has been recognized by leading industry organizations</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Award 1 -->
+                <div class="award-badge">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Best Digital Marketing Agency</h3>
+                    <p class="text-yellow-400 mb-3">Marketing Excellence Awards 2022</p>
+                    <p class="text-gray-300">Recognized for delivering exceptional ROI and innovative strategies for global clients.</p>
+                </div>
+                
+                <!-- Award 2 -->
+                <div class="award-badge">
+                    <div class="award-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Top 10 E-commerce Agency</h3>
+                    <p class="text-yellow-400 mb-3">E-commerce Association of Asia 2021</p>
+                    <p class="text-gray-300">Honored for pioneering strategies that transformed online retail businesses across Asia.</p>
+                </div>
+                
+                <!-- Award 3 -->
+                <div class="award-badge">
+                    <div class="award-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Innovation in MarTech</h3>
+                    <p class="text-yellow-400 mb-3">Global Marketing Technology Awards 2023</p>
+                    <p class="text-gray-300">Awarded for our proprietary marketing analytics platform that combines AI and human expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="py-20 md:py-24 bg-gray-900">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Contact Us</h2>
+                <p class="text-gray-300 mt-8 max-w-3xl mx-auto">Ready to elevate your digital marketing strategy? Reach out to our team today</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="dark-card rounded-lg p-6 md:p-10 text-center border border-yellow-500 border-opacity-20">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8 md:mb-10">
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fab fa-telegram text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Telegram</p>
+                            <p class="text-gray-300">@snvtr2</p>
+                        </div>
+                        
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fas fa-envelope text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Email</p>
+                            <p class="text-gray-300">qwerty2015009@gmail.com</p>
+                        </div>
+                        
+                        <div class="p-4 md:p-6 rounded-lg gold-accent bg-gray-800">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gray-700 flex items-center justify-center mx-auto mb-4 text-yellow-400">
+                                <i class="fab fa-skype text-xl md:text-2xl"></i>
+                            </div>
+                            <p class="font-medium text-white mb-2">Skype</p>
+                            <p class="text-gray-300">live:.cid.9102ee3696093646</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8 md:mb-10 p-6 md:p-8 rounded-lg bg-gray-800 border-l-4 border-yellow-500">
+                        <p class="font-medium text-xl mb-2 md:mb-3 text-white">StarPulse Influence Limited</p>
+                        <p class="text-gray-300">542 Hang Kin Street, Sha Tin District, Hong Kong</p>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row justify-center gap-4 md:gap-6">
+                        <button onclick="siteweb()" class="gold-gradient-button text-black hover:bg-yellow-400 px-8 py-3 md:px-10 md:py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">Contact Us Now</button>
+                        <button onclick="siteweb()" class="bg-transparent border-2 border-yellow-500 text-white hover:bg-yellow-500 hover:bg-opacity-10 px-8 py-3 md:px-10 md:py-4 rounded-full text-lg font-medium shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">Request a Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Presence Section -->
+    <section class="py-20 black-gold-gradient-bg">
+        <div class="page-container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold section-title gold-gradient-text">Our Global Presence</h2>
+                <p class="text-gray-300 mt-12 max-w-3xl mx-auto">With offices and clients across the globe, we deliver localized expertise with global insights</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
+                <div class="dark-card p-5 rounded-lg">
+                    <div class="text-2xl mb-2 text-yellow-400"><i class="fas fa-map-marker-alt"></i></div>
+                    <p class="font-medium text-white">Hong Kong</p>
+                    <p class="text-gray-300 text-sm">Headquarters</p>
+                </div>
+                
+                <div class="dark-card p-5 rounded-lg">
+                    <div class="text-2xl mb-2 text-yellow-400"><i class="fas fa-map-marker-alt"></i></div>
+                    <p class="font-medium text-white">Singapore</p>
+                    <p class="text-gray-300 text-sm">Regional Office</p>
+                </div>
+                
+                <div class="dark-card p-5 rounded-lg">
+                    <div class="text-2xl mb-2 text-yellow-400"><i class="fas fa-map-marker-alt"></i></div>
+                    <p class="font-medium text-white">Shanghai</p>
+                    <p class="text-gray-300 text-sm">Regional Office</p>
+                </div>
+                
+                <div class="dark-card p-5 rounded-lg">
+                    <div class="text-2xl mb-2 text-yellow-400"><i class="fas fa-map-marker-alt"></i></div>
+                    <p class="font-medium text-white">London</p>
+                    <p class="text-gray-300 text-sm">Regional Office</p>
+                </div>
+                
+                <div class="dark-card p-5 rounded-lg">
+                    <div class="text-2xl mb-2 text-yellow-400"><i class="fas fa-map-marker-alt"></i></div>
+                    <p class="font-medium text-white">New York</p>
+                    <p class="text-gray-300 text-sm">Regional Office</p>
+                </div>
+                
+                <div class="dark-card p-5 rounded-lg">
+                    <div class="text-2xl mb-2 text-yellow-400"><i class="fas fa-map-marker-alt"></i></div>
+                    <p class="font-medium text-white">Sydney</p>
+                    <p class="text-gray-300 text-sm">Regional Office</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 hero-gradient-bg">
+        <div class="page-container mx-auto px-4 text-center">
+            <div class="hero-content">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">Ready to Grow Your Brand Globally?</h2>
+                <p class="text-xl mb-8 text-gray-300 max-w-3xl mx-auto">Partner with OmniDigitalM for data-driven digital marketing strategies that deliver measurable results.</p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <a href="#contact-us" class="gold-gradient-button text-black px-8 py-4 rounded-full font-medium text-lg">Start Your Journey</a>
+                    <a href="#" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-medium text-lg hover:bg-white hover:bg-opacity-10 transition-colors">View Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="page-container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+                <div>
+                    <div class="text-2xl font-bold gold-gradient-text mb-4">OmniDigitalM</div>
+                    <p class="text-gray-400 mb-6">Global Digital Marketing Solutions for businesses seeking effective online presence and growth.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="seo.html" class="text-gray-400 hover:text-yellow-400 transition-colors">SEO Optimization</a></li>
+                        <li><a href="ads.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Paid Advertising</a></li>
+                        <li><a href="kol.html" class="text-gray-400 hover:text-yellow-400 transition-colors">KOL Marketing</a></li>
+                        <li><a href="web.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Website Development</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-gray-400 hover:text-yellow-400 transition-colors">About Us</a></li>
+                        <li><a href="price.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Price</a></li> 
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="Privacy.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a></li>
+                        <li><a href="TermsofService.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a></li>  
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 mb-4 md:mb-0">© 2025 StarPulse Influence Limited. All rights reserved.</div>
+                <div class="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6">
+                    <a href="Privacy.html" class="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a>
+                    <a href="TermsofService" class="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function siteweb() {
+            window.open('https://t.me/snvtr2', '_blank');
+        }
+        
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+        
+        // Handle dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+    </script>
+</body>
+</html>
